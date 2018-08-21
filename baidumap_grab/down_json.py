@@ -18,8 +18,8 @@ class BaiDuPOI(object):
         # 生成20页子页码
 
     def urls(self):
-        api_key = 'tKO0y6ddO7QngaXhLTfkch4rN7EK3Otl'
-        sn = '66b318f774dd590c60bb2c10fd81c7ae'
+        api_key = 'your key'
+        sn = 'your sn'
         urls = []
         for pages in range(0, 10):
             url = 'http://api.map.baidu.com/place/v2/search?query=' + self.itemy + '&bounds=' + self.loc + '&page_size=20&page_num=' + str(

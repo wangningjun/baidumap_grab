@@ -10,10 +10,9 @@ class Boun_point():
     def __init__(self,title):
         self.title = title
 
-
     def boundary(self):
 
-        url = 'http://map.baidu.com/su?wd='+self.title+'&cid=289&type=0&pc_ver=2'
+        url = 'your_url'+self.title+'&cid=289&type=0&pc_ver=2'
 
         try:
             json_object = urllib2.urlopen(url)
